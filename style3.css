@@ -1,0 +1,184 @@
+:root {
+    --primary-color: black;
+    --primary-background-color: white;
+    --color-accent: rgb(216, 16, 189);
+    --color-button: #ff003b;
+    --colour-border: rgb(255, 22, 119);
+
+    --font-size-large: 3rem;
+    --font-size-medium: 1.125rem;
+    --font-size-small: 0.4rem;
+    --text-spacing: 0.2rem;
+    --text-caps: uppercase;
+
+
+    --font-family: 'Dosis', serif;
+    --font-weight: 400;
+    --font-weight-light: 200;
+
+
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+
+
+header {
+    top: 0%;
+    position: absolute;
+    z-index: 1;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+
+}
+
+.navbox {
+    margin: 1% 5% 0% 5%;
+    width: 80%;
+    padding-left: 5%;
+    display: flex;
+
+}
+
+.navbar-brand {
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.navbar-brand img {
+    width: 53px;
+    height: 54px;
+    background-color: black;
+    border-radius: 50%;
+
+
+}
+
+.nav-item:hover {
+    transition: 0.3s;
+    margin-top: 2%;
+}
+
+
+.wrapper {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    padding-top: 6%;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    text-decoration: none;
+    color: rgb(216, 16, 189);
+    border: 2px solid rgb(255, 22, 119);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+span {
+    position: relative;
+    padding-bottom: 4px;
+
+    z-index: 2;
+}
+
+.btn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+}
+
+span:hover {
+    color: #fff;
+}
+
+.btn:hover:after {
+    width: 100%;
+}
+
+.row {
+    margin: 15% 8%;
+    background-color: rgb(19, 33, 44);
+    border-radius: 25px;
+
+}
+
+.form-control {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid pink;
+    width: 55%;
+}
+
+.namef,
+.namel {
+    max-width: 35%;
+
+}
+
+h1,
+p {
+    font-family: var(--font-family);
+    color: aliceblue;
+}
+
+
+
+.pn {
+
+    font-family: var(--font-family);
+    color: aliceblue;
+    font-size: 2rem;
+
+    line-height: 200%;
+    font-weight: var(--font-weight-light);
+}
+
+.pl {
+    color: var(--color-button);
+    font-weight: var(--font-weight-light);
+    font-size: large;
+
+}
+
+.fa-solid {
+    color: var(--color-button);
+    font-size: var(--font-size-large);
+    margin-right: 3%;
+}
+
+.fa-solid:hover {
+    rotate: 360deg;
+    transition: 0.3s;
+}
