@@ -101,7 +101,7 @@ section {
         linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 50%) bottom -12px left 50% /15px 15px no-repeat;
     transition: 1s;
     background-position: 1s 1s;
-    z-index: 1;
+    z-index: 0;
 
 
 }
@@ -145,6 +145,7 @@ section:hover .imgthing {
     font-size: var(--font-size-medium);
     color: var(--primary-color);
     transition: 0.3s;
+
 
 }
 
@@ -194,10 +195,30 @@ section:hover .imgthing {
 
 }
 
-@media screen and (max-width: 700px) and (min-width: 500px) {
+@media screen and (max-device-width: 700px) and (min-device-width: 300px) {
+
+    .navbox {
+        z-index: 1;
+        display: block;
+    }
+
+    .textabt {
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+    }
+
+    .imgthing {
+        height: 10rem !important;
+        width: 10.5rem !important;
 
 
+    }
 
+    .section1 {
+        margin-top: 20%;
+        position: absolute;
+        display: block;
+    }
 
     .textabt p {
         font-size: medium;
