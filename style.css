@@ -628,7 +628,7 @@ footer .icon1,
 
     .section1 {
         
-        background-color: hsl(0, 100%, 0%);
+        background-color: hsl(0, 100%, 0%) !important;
     }
 
     .container1 .img2 {
