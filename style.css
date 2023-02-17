@@ -627,8 +627,8 @@ footer .icon1,
 @media screen and (max-device-width: 700px) and (min-device-width: 200px) {
 
     .section1 {
-         background-clip: black;
-        -webkit-background-clip: black;
+        
+        background-color: hsl(0, 100%, 0%);
     }
 
     .container1 .img2 {
