@@ -465,7 +465,7 @@
         let zoneArea = zone.getBoundingClientRect();
         let zoneAreaWidth = zoneArea.width;
         let zoneAreaHeight = zoneArea.height;
-        let zoneAreaCenterX = zoneArea.left + (zoneAreaWidth * 0.8);
+        let zoneAreaCenterX = zoneArea.left + (zoneAreaWidth * 1);
         let zoneAreaCenterY = zoneArea.top + (zoneAreaHeight * 0.8);
 
 
@@ -491,7 +491,7 @@
         anime.set(circle, {
             translateX: startingPosition.x,
             translateY: startingPosition.y,
-            scale: 0.3
+            scale: 1
         });
 
 
@@ -500,7 +500,7 @@
             // TweenMax.to(circle, 0.3, { scale: 1.2 });
             anime({
                 targets: circle,
-                scale: 0.3,
+                scale: 1,
                 duration: 600,
                 easing: 'easeInElastic'
 
@@ -513,7 +513,7 @@
             // TweenMax.to(circle, 0.3, { scale: 1 });
             anime({
                 targets: circle,
-                scale: 0.3,
+                scale: 1,
                 duration: 600,
                 easing: 'easeOutElastic(1, .3)'
             });
@@ -535,7 +535,7 @@
             // });
             anime({
                 targets: circle,
-                scale: 0.4,
+                scale: 0.6,
                 translateX: x,
                 translateY: y,
                 duration: 1000
