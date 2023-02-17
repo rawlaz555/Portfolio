@@ -44,13 +44,15 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html"
-                                style="color: #ffffffbe;">HOME</a>
+                                style="color: #ffffffbe; font-weight: bold;">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aboutme.html" style="color: #ffffff96;">ABOUT ME</a>
+                            <a class="nav-link" href="aboutme.html" style="color: #ffffff96; font-weight: bold;">ABOUT
+                                ME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactme.html" style="color: #ffffff85;">CONTACT ME</a>
+                            <a class="nav-link" href="contactme.html"
+                                style="color: #ffffff85; font-weight: bold;">CONTACT ME</a>
                         </li>
 
                 </div>
@@ -395,13 +397,13 @@
                 targets: '.img2', translateY: 260, duration: 1000, loop: false, top: '0%', scale: [0, 1], delay: 500, opacity: ['100%']
             });
             anime({
-                targets: '.mainimg', borderRadius: ['85%'], top: '0%', duration: 1000, loop: false, scale: [0, 0.6], delay: 500, top: ['0'], left: ['21%']
+                targets: '.mainimg', translateX: ['-700', '0'], borderRadius: ['85%'], top: '0%', duration: 1000, loop: false, scale: [0, 0.6], delay: 500, top: ['0%'], left: ['20%']
             });
             anime({
-                targets: '.mainimg2', borderRadius: ['85%'], top: '0%', duration: 1000, loop: false, scale: [0, 0.6], delay: 0, opacity: ['35%'], top: ['0'], left: ['20%']
+                targets: '.mainimg2', borderRadius: ['85%'], top: '0%', duration: 1000, loop: false, scale: [0, 0.6], delay: 500, opacity: ['35%'], top: ['0'], left: ['20%']
             });
             anime({
-                targets: '.welcomecontainer', translateX: ['-700', '0'], delay: 700, easing: 'easeOutElastic(1, .6)', duration: 1000, loop: false
+                targets: '.welcomecontainer', translateX: ['-700', '0'], delay: 500, easing: 'easeOutElastic(1, .6)', duration: 1000, loop: false
             })
             anime({
                 targets: '.navbox', scale: [0, 1], delay: 700, easing: 'easeOutElastic(1, .6)', duration: 1000, loop: false
@@ -533,7 +535,7 @@
             // });
             anime({
                 targets: circle,
-                scale: 0.7,
+                scale: 0.4,
                 translateX: x,
                 translateY: y,
                 duration: 1000
