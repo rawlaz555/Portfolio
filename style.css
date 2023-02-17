@@ -627,7 +627,8 @@ footer .icon1,
 @media screen and (max-device-width: 700px) and (min-device-width: 200px) {
 
     .section1 {
-        background-color: black;
+         background-clip: black;
+        -webkit-background-clip: black;
     }
 
     .container1 .img2 {
@@ -701,6 +702,9 @@ footer .icon1,
 
     .welcomecontainer .wrapper {
         margin-top: 10%;
+    }
+     .welcomecontainer h1 {
+        font-size: 1.5rem;
     }
 
     .carousel-inner .caroseltext {
