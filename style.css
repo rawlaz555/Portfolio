@@ -628,7 +628,7 @@ footer .icon1,
 
     .section1 {
         
-        background-color: hsl(0, 100%, 0%) !important;
+        background-color: var(--color-accent2); 
     }
 
     .container1 .img2 {
