@@ -141,7 +141,7 @@ header {
     display: inline-block;
     padding: 0;
     margin-top: 0%;
-    background-color: var(--color-accent2);
+    background: radial-gradient(circle, rgb(114, 88, 32) 0%, rgba(0, 0, 0, 1) 50%);
     border-radius: 0px 0px 30px 30px;
 
 
@@ -615,11 +615,7 @@ footer .icon1,
 }
 
 
-@media screen and (min-width: 600px) {
-    .section1 {
-        background: radial-gradient(circle, rgb(114, 88, 32) 0%, rgba(0, 0, 0, 1) 50%);
-    }
-}
+
 
 @media screen and (max-width: 992) {
     .cp {
@@ -633,7 +629,8 @@ footer .icon1,
 
 @media screen and (max-device-width: 700px) and (min-device-width: 200px) {
 
- 
+
+
 
     .container1 .img2 {
         max-width: 100%;
@@ -707,7 +704,8 @@ footer .icon1,
     .welcomecontainer .wrapper {
         margin-top: 10%;
     }
-     .welcomecontainer h1 {
+
+    .welcomecontainer h1 {
         font-size: 1.5rem;
     }
 
@@ -715,6 +713,7 @@ footer .icon1,
         font-size: var(--font-size-medium);
 
     }
+
 
     .caroselh1 {
 
@@ -731,6 +730,9 @@ footer .icon1,
 
 
 }
+
+
+
 
 @media screen and (max-width: 992px) and (min-width: 300px) {
 
@@ -839,7 +841,6 @@ footer .icon1,
     }
 
 
-    .uidesign img {}
 
     .section6 img {
         width: 480px !important;
